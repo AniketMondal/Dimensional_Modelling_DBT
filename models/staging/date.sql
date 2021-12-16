@@ -1,7 +1,7 @@
 with dates as
         (select distinct(cast(date as date)) as date from {{ source('raw_tbl', 'COVID_19_INDONESIA_ANIKET_MONDAL') }}),
      final as
-        (select concat(year(date),lpad(cast(month(date) as varchar),2,'0'),lpad(cast(day(date) as varchar),2,'0')) as date_id,
+        (select concat(year(date),lpad(cast(month(date) as varchar),2,'0'),lpad(cast(day(date) as varchar),2,'0'))::int as date_id,
         date,
         day(date) as day,
         dayname(date) as day_name,
