@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: date
+    description: "dimension table of date"
+    columns:
+      - name: date_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

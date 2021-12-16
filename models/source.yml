@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: raw_tbl
+    database: FIVETRAN_INTERVIEW_DB
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: COVID_19_INDONESIA_ANIKET_MONDAL
