@@ -7,10 +7,10 @@ with dates as
         dayname(date) as day_name,
         month(date) as month,
         monthname(date) as month_name,
+        quarter(date) as quarter,
         year(date) as year,
         weekiso(date) as iso_week,
-        yearofweekiso(date) as iso_year_of_week,
-        quarter(date) as quarter_of_year
+        yearofweekiso(date) as iso_year_of_week
         from dates order by date)
 
 select * from final
