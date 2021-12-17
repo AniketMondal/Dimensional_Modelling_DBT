@@ -46,7 +46,13 @@ models:
         description: "The foreign key referencing the date dimension"
         tests:
           - not_null
+          - relationships:
+              to: ref('date')
+              field: date_sk
       - name: location_sk
         description: "The foreign key referencing the location dimension"
         tests:
           - not_null
+          - relationships:
+              to: ref('location')
+              field: location_sk
