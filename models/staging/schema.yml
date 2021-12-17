@@ -9,6 +9,10 @@ models:
         tests:
           - unique
           - not_null
+      - name: date
+        description: "The date formatted as a date"
+        tests:
+          - not_null
 
   - name: location
     description: "dimension table of location"
@@ -17,6 +21,22 @@ models:
         description: "The surrogate key for the location dimension"
         tests:
           - unique
+          - not_null
+      - name: location_iso_code
+        description: "The ISO code for the location"
+        tests:
+          - not_null
+      - name: latitude
+        description: "The latitude of the location"
+        tests:
+          - not_null
+      - name: longitude
+        description: "The longitude of the location"
+        tests:
+          - not_null
+      - name: location
+        description: "The name of the location"
+        tests:
           - not_null
 
   - name: covid_stats
