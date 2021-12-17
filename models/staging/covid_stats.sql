@@ -1,6 +1,6 @@
 with facts as
         (select
-        date_id,
+        date_sk,
         location_sk,
         new_cases_per_million,
         new_cases,
@@ -30,4 +30,4 @@ with facts as
         loc.location_iso_code = src.location_iso_code))
 
 select * from facts
-order by date_id
+order by date_sk

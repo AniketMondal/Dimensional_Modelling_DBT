@@ -4,8 +4,8 @@ models:
   - name: date
     description: "dimension table of date"
     columns:
-      - name: date_id
-        description: "The primary key for this table"
+      - name: date_sk
+        description: "The surrogate key for the date dimension"
         tests:
           - unique
           - not_null
