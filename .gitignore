@@ -1,4 +1,7 @@
 
-target/
+target/compiled/
+target/run/
+target/run_results.json
+target/partial_parse.msgpack
 dbt_modules/
 logs/
