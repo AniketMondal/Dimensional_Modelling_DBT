@@ -38,3 +38,5 @@ models:
       +materialized: table
     wide_table:
       +materialized: view
+    analytics:
+      +materialized: table
