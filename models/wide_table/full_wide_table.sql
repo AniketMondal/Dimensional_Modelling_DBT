@@ -39,7 +39,9 @@ select
     total_cases,
     total_deaths_per_million,
     total_deaths,
+    total_recovered_per_million,
     total_recovered,
+    total_active_cases_per_million,
     total_active_cases,
     case_recovered_rate,
     case_fatality_rate
