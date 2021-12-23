@@ -1,5 +1,5 @@
 # Dimensional_Modelling_DBT
-dbt repository for building dimensional data model for a [covid-19 dataset](https://www.kaggle.com/hendratno/covid19-indonesia). Contains dimension tables, fact table and the wide table, ready for visualization.
+dbt repository for building dimensional data model for a [covid-19 dataset](https://www.kaggle.com/hendratno/covid19-indonesia/version/80). Contains dimension tables, fact table and the wide table, ready for visualization.
 
 
 For the Documentation and Lineage Graph / DAG, please follow this **[LINK](https://aniketmondal.github.io/Dimensional_Modelling_DBT/target/)**.
