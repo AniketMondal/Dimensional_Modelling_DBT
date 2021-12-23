@@ -4,6 +4,9 @@ dbt repository for building dimensional data model for a [covid-19 dataset](http
 
 For the Documentation and Lineage Graph / DAG, please follow this **[LINK](https://aniketmondal.github.io/Dimensional_Modelling_DBT/target/)**.
 
+The detailed and interactive **Google Data Studio Dashboard** can be viewed **[here](https://datastudio.google.com/reporting/2f0f8c3d-bd53-4309-bbe9-0a4c9efbdb92)**.
+
+
 ----------**********----------
 
 
